@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO FINAL</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/albumes.css">
+    <link rel="stylesheet" href="css/historia.css">
+    <link rel="stylesheet" href="css/video.css">
+
+</head>
+<body>
+    <div class="contenedor">
+<ul class="menu">
+    <ul>
+        <li><a href="#"> INICIO </a></li>
+        <li><a href="#"> ÁLBUMES </a></li>
+        <li><a href="#"> HISTORIA </a></li>
+        <li><a href="#"> VIDEO </a></li>
+    
+</ul>
+</div>
+
+<div class="contenedor2">
+    <div class="titulo">
+    <h2>"ALCOLIRYKOZ"</h2>
+</div>
+
+<!--recursos web-->
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/7.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/8.jpg" alt=""></div>
+
+        </div>
+      </div>
+
+
+<!--Javascirpt-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+<!--recursos web fin-->
+
+
+<div class="contenedor3">
+    <div class="historia">
+    <h2>En 1999 Juan Fonnegra y Carlos Castro, unidos por lazos de sangre (son primos) 
+        pero también por el amor al hip hop, crearon un parche para rapear llamado Arnez,
+         que en 2004 se convirtió en AlcolirykoZ, palabra que inicia y termina como el barrio 
+        de sus amores, de donde son, y que cuentan en muchas de sus canciones: Aranjuez.
+        Luego llegaría Gustavo para ser el DJ del proyecto y, ahí sí, convertirse en el trío 
+        que son ahora: Gambeta (Juan), Kaztro (Carlos) y Fa-zeta (Gustavo).
+    <br> Alcolirykoz suena a calle pero tambien a poesía, de esa descarnada, 
+    visceral (con influencias del nadaísmo en algunas de sus letras), 
+    a sátira, pero también a beats llenos de jazz, de soul, de salsa y hasta de balada
+     (o ‘música para planchar’ como le dicen ellos). Y, obvio, a fiesta, a una llena de
+    rap para saltar y cantar sin parar. </h2>
+</div>
+
+
+    
+</body>
+</html>
